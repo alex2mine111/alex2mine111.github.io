@@ -1,0 +1,86 @@
+a:link {
+    color: #212929;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2b3c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b6ff00;
+    text-decoration: none;
+}
+
+a:active {
+    color: #5c70e6;
+    text-decoration: none;
+}
+
+#wrapper {
+    background-color: #f4fafa;
+    position: relative;
+    margin: 0 auto;
+    width: 0 auto;
+    height: 800px;
+    box-shadow: 10px 7px 10px -5px #404040, 0px 0px 5px -5px #000;
+}
+
+header {
+    position: sticky;
+    height: 60px;
+    width: 0 auto;
+    background-color: #88c7bb;
+    background-image: url(https://th.bing.com/th/id/OIP.v7Xy-OCO59VxxWxq0nSuRgHaB5?pid=ImgDet&rs=1);
+    background-size:cover;
+}
+
+#menu {
+    font: menu;
+    position: absolute;
+    left:10px;
+}
+#menubutton{
+    width:fit-content;
+    height:fit-content;
+    background-color: aqua;
+    border: 2px solid aqua;
+}
+#menubutton:hover {
+    width: fit-content;
+    height: fit-content;
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
+#content {
+    position: relative;
+}
+
+#pagetype {
+    position: absolute;
+    right: 100px;
+    width: fit-content+10px;
+    height: fit-content+10px;
+    background-color: aliceblue;
+    border: 5px solid aliceblue;
+}
+#title {
+    position: relative;
+    left: 30px;
+    top: 4px;
+    height: 10px;
+    width:fit-content;
+}
+#text{
+    position:relative;
+    left: 10px;
+    height: fit-content;
+    width: 0 auto;
+    font-family: sans-serif;
+}
+#headerImg {
+
+    width: 0 auto;
+    height: 200px;
+}
