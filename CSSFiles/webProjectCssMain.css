@@ -23,10 +23,19 @@ a:active {
     position: relative;
     margin: 0 auto;
     width: 0 auto;
-    height: 800px;
+    height: 520px;
     box-shadow: 10px 7px 10px -5px #404040, 0px 0px 5px -5px #000;
-}
 
+}
+#wrapperType2{
+    background-color: #f4fafa;
+    position: relative;
+    margin: 0 auto;
+    width: 0 auto;
+    height: fit-content;
+    box-shadow: 10px 7px 10px -5px #404040, 0px 0px 5px -5px #000;
+
+}
 header {
     position: sticky;
     height: 60px;
@@ -83,4 +92,12 @@ header {
 
     width: 0 auto;
     height: 200px;
+}
+#videolist {
+
+}
+td {
+    position:relative;
+    height: 215 auto;
+    width: 320 auto;
 }
