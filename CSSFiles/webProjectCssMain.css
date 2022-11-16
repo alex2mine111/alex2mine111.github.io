@@ -17,15 +17,18 @@ a:active {
     color: #5c70e6;
     text-decoration: none;
 }
-
+body{
+    min-width:1vh;
+    margin:0px 0px;
+    padding:0px 0px;
+    overflow-x:hidden;
+}
 #wrapper {
     background-color: #f4fafa;
-    position: relative;
-    margin: 0 auto;
-    width: 0 auto;
+    width: inherit;
     height: 520px;
-    box-shadow: 10px 7px 10px -5px #404040, 0px 0px 5px -5px #000;
-
+    margin: 0;
+    padding: 0;
 }
 #wrapperType2{
     background-color: #f4fafa;
@@ -39,7 +42,7 @@ a:active {
 header {
     position: sticky;
     height: 60px;
-    width: 0 auto;
+    min-width: 100vh;
     background-color: #88c7bb;
     background-image: url(https://th.bing.com/th/id/OIP.v7Xy-OCO59VxxWxq0nSuRgHaB5?pid=ImgDet&rs=1);
     background-size:cover;
@@ -49,6 +52,7 @@ header {
     font: menu;
     position: absolute;
     left:10px;
+    min-width: fit-content;
 }
 #menubutton{
     width:fit-content;
@@ -85,7 +89,8 @@ header {
     position:relative;
     left: 10px;
     height: fit-content;
-    width: 0 auto;
+    max-width: fit-content;
+    right: 10px;
     font-family: sans-serif;
 }
 #headerImg {
@@ -97,7 +102,24 @@ header {
 
 }
 td {
-    position:relative;
-    height: 215 auto;
-    width: 320 auto;
+    position:page;
+    height: 215px auto;
+    width: 320px auto;
+    align-items:start;
+}
+iframe {
+    max-width: 320px;
+    max-height: 215px;
+}
+header{
+    min-width:100vh;
+
+}
+#content{
+    left:10px;
+}
+#btxt {
+    margin: 0 2px;
+    padding:0;
+    width:10px;
 }
