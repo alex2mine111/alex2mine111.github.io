@@ -30,15 +30,7 @@ body{
     margin: 0;
     padding: 0;
 }
-#wrapperType2{
-    background-color: #f4fafa;
-    position: relative;
-    margin: 0 auto;
-    width: 0 auto;
-    height: fit-content;
-    box-shadow: 10px 7px 10px -5px #404040, 0px 0px 5px -5px #000;
 
-}
 header {
     position: sticky;
     height: 60px;
@@ -48,19 +40,19 @@ header {
     background-size:cover;
 }
 
-#menu {
+.menu {
     font: menu;
     position: absolute;
     left:10px;
     min-width: fit-content;
 }
-#menubutton{
+.menubutton{
     width:fit-content;
     height:fit-content;
     background-color: aqua;
     border: 2px solid aqua;
 }
-#menubutton:hover {
+.menubutton:hover {
     width: fit-content;
     height: fit-content;
     background-color: dodgerblue;
@@ -98,9 +90,7 @@ header {
     width: 0 auto;
     height: 200px;
 }
-#videolist {
 
-}
 td {
     position:page;
     height: 215px auto;
@@ -122,4 +112,24 @@ header{
     margin: 0 2px;
     padding:0;
     width:10px;
+}
+/*Video-PageSpecific content*/
+.videolist {
+
+} 
+#wrapperType2{
+    background-color: #f4fafa;
+    position: relative;
+    margin: 0 auto;
+    width: 0 auto;
+    height: fit-content;
+    box-shadow: 10px 7px 10px -5px #404040, 0px 0px 5px -5px #000;
+
+}
+.displayed_video {
+    width:max-content;
+    height:fit-content;
+}
+.videobutton {
+
 }

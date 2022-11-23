@@ -9,51 +9,42 @@
 <body>
     <div id="wrapperType2">
 
+    <!--Html Code-->
         <header>
             <div id="title"><font face="fantasy">alex2mine111's website project</font></div>
             <div id="pagetype">Cringe Videos</div><br />
-            <div id="menu">
-                <a id="menubutton" href="index.html">Home</a>
-                <a id="menubutton" href="content.html">Content</a>
-                <a id="menubutton" href="cringeVids.html">Videos</a>
+            <div class="menu">
+                <a class="menubutton" href="index.html">Home</a>
+                <a class="menubutton" href="content.html">Content</a>
+                <a class="menubutton" href="cringeVids.html">Videos</a>
             </div>
         </header><br />
-        <div id="content">
-            <text>Site Content:</text> <br />
-            <div id="text">Old unlisted alex2mine111 videos. These were unlisted due to copyright, bad quality, or downright cringe. WARNING: This page is not supported on devices with a width smaller than approximately 1840 pixels. If you are using a smaller device, not all videos might show.</div>
-            <table id="videolist">
-                <tr>
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/Gkj9imXS9g8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                    &ensp;
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/l1D9mmaNoy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                </tr>
-                <tr>
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/3D7nU3QPRJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                    &ensp;
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/geAmm5-saxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                </tr>
-                <tr>
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/l_uvgtQ92R8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                    &ensp;
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/8AEcnJ0EU9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                </tr>
-                <tr>
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/WH6Aq2RU1Iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                    &ensp;
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/Fct2Bg_EHY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                </tr>
-                <tr>
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/XOEuxUZpTlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                    &ensp;
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/FbQqJ53WfG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                </tr>
-                <tr>
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/G_td6vz5nrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                    &ensp;
-                    <td><iframe width="320" height="215" src="https://www.youtube.com/embed/b2qOIsulwfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-                </tr>
-            </table>
-        </div>
+                 <div id="content">
+                     <text>Site Content:</text> <br />
+                     <div id="text">Old unlisted alex2mine111 videos. These were unlisted due to copyright, bad quality, or downright cringe. WARNING: This page is not supported on devices with a width smaller than approximately 1840 pixels. If you are using a smaller device, not all videos might show.</div>
+                     <div class="displayed_video" id="DVideo">
+                         <iframe id="FDVideo" width="320" height="215" src="" title="Unknown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <script>
+                         function changeVideo(embed) {
+                             var video = document.getElementById("FDVideo");
+                             video.src = embed;
+                             return false;
+                         }
+                     </script>
+                     <ul class="videolist">
+                         <li>
+                             <button class="videobutton SMB" onclick="document.getElementById("FDVideo").sresource="https://www.youtube.com/embed/b2qOIsulwfo";">
+                                 Super Mario Bros on the NES!
+                             </button>
+                             <!--Preload the videos on the same position, then resize the selected video to a visible size, that way the code doesnt think the link is a file.-->
+                         </li>
+                         <li>
+
+                         </li>
+                     </ul>
+
+                 </div>
     </div><br /><br />
     <a link href="https://www.youtube.com/@alex2mine111">Genius Social</a>
 </body>
